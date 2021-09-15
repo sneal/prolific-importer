@@ -1,0 +1,20 @@
+Title,Type,Description,Labels
+TKG prerequisites are installed locally,feature,"** As a person setting up TKG**
+**I want ** to have the necessary tools installed to deploy TKG from my machine 
+**So that ** I can begin deploying TKG
+
+
+**Notes: The tools include the TKG CLI, kubectl, and docker. 
+A list of them and instructions can be found in the documentation https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html**",Install TKG
+Vsphere environment is prepared,feature,"** As a VI admin**
+**I want ** to prepare my Vsphere environment 
+**So that ** I can deploy TKG there.
+
+
+**Notes: Documentation and detailed instructions are available: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-vsphere.html**","Install TKG,vsphere"
+Additional Vsphere prep tasks for disconnected environments,feature,"** As a VI admin**
+**I want ** to set up a docker registry and provide TKG's necessary resources locally 
+**So that ** I can deploy TKG without internet access
+
+
+**Notes: The bulk of this task is making the necessary docker images available offline. See the documented instructions here: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-airgapped-environments.html**","Install TKG,vsphere"
